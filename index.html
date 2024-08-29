@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <ul class="navlist web-only">
+                <li><a href="#">Money Transfer</a></li>
+                <li><a href="#">Prepaid Cards</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Become an Agent</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="#" class="register">Register</a>
+            
+            <div class="hamburger no-web-display">
+                <div></div>
+            </div>
+            <div class="menu no-web-display">
+                <ul class="menulist">
+                    <li><a href="#">Money Transfer</a></li>
+                    <li><a href="#">Prepaid Cards</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Become an Agent</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <main>
+        <section class="banner">
+            <div class="container">
+                <h1 class="hidden-text">Smart Banking Concept</h1>
+                <h3 class="sub-heading hidden-text">Designed Just For You</h3>
+                <p class="banner-para hidden-text">A variety of cards for  every need and for everyone</p>
+                <a href="#" class="btn blue-btn hidden-text">Pick Your Card <i class="fa-solid fa-angle-right circle"></i></a>
+            </div>
+        </section>
+        <section class="user-login">
+            <form action="/" id="form">
+                <label for="username">Existing User Login</label>
+                <input type="text" name="username" id="username" placeholder="USERNAME" required>
+                <input type="password" name="password" id="password" placeholder="PASSWORD" required>
+                <input type="submit" value="GO" class="submit">
+            </form>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div>
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <div class="feature-desc">Quick Balance Check</div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wallet"></i>
+                    <div class="feature-desc">Quick Bill Payments</div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="feature-desc">Store Locator</div>
+                </div>
+            </div>
+        </section>
+        <div class="features mobile">
+            <div class="container slideshow-container">
+                <div class="mySlides">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <div class="feature-desc">Quick Balance Check</div>
+                </div>
+                <div class="mySlides">
+                    <i class="fa-solid fa-wallet"></i>
+                    <div class="feature-desc">Quick Bill Payments</div>
+                </div>
+                <div class="mySlides">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="feature-desc">Store Locator</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <section class="contact-us">
+            <div class="container">
+                <h2 class="hidden-text">Contact <span class="normal-font">Us</span></h2>
+                <p class="hidden-text">Lorem Ipsum is a Dummy Text used in web and print industry.</p>
+                <a href="#" class="btn red-btn hidden-text">Pick Your Card <i class="fa-solid fa-angle-right circle"></i></a>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <h2>Our Partners</h2>
+                <div class="scroller">
+                    <ul class="scroll-items">
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        <li>
+                            <img src="images/partner.jpg" alt="RBL Logo">
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Online Privacy</a></li>
+            </ul>
+            <p class="designed-by">Designed & Developed by: </p>
+        </div>
+    </footer>
+</body>
+</html>

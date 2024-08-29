@@ -1,0 +1,15 @@
+
+
+Images folder - Cropped images. Missing images you can crop as per your requirements from PSD
+
+psd folder - Source file 
+
+Site should be responsive. Refer Mobile design Jpg for Mobile View. Site should be responsive till 360Px.
+
+Text on the banner should be pure html text and some smooth animation on button
+
+Three circle should have some hover effect
+
+Our partners will be auto carousel.
+
+Require Form Validations.
